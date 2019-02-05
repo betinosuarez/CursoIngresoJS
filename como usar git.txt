@@ -1,0 +1,6 @@
+Primero: 
+	git clone *repo* -> "repo" es el link del repositorio en github
+
+
+Segundo: entrar a la carpeta del Git = cd
+CursoingresoJS (para entrar a esta carpeta como master)
