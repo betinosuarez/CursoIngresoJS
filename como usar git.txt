@@ -1,6 +1,16 @@
-Primero: 
-	git clone *repo* -> "repo" es el link del repositorio en github
+Como actualizar por medio de GIT CMD
+
+	Primero: 
+		git clone *repo* -> "repo" es el link del repositorio en github para copiar el git desde la web
 
 
-Segundo: entrar a la carpeta del Git = cd
-CursoingresoJS (para entrar a esta carpeta como master)
+	Segundo: usar "cd" para ingresar a una capeta, este caso, la del git
+		CursoingresoJS (para entrar a esta carpeta como master)
+
+		luego usar git add . para crear archivo git
+
+	
+	Tercero: git commit -m "Comentario de commit"
+
+
+	Cuarto: git push para subirlo
