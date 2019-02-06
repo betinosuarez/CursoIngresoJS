@@ -7,6 +7,7 @@ function mostrar()
 	var nombre;
 
 	nombre = prompt("Por favor ingrese un nombre");
-	elNombre.value = nombre;
+ // elNombre.value = nombre;
+ document.getElementById("elNombre").value = nombre; // ambas lineas 10 y 11 cumplen misma funcion.
 }
 
