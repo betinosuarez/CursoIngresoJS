@@ -5,19 +5,19 @@ ej.: "la Resta es 750"*/
 function sumar()
 {	
 	var primerNumero;
- 	var segundoNumero;
- 	var suma;
+	var segundoNumero;
+	var suma;
 
- 	primerNumero = numeroUno.value;
- 	segundoNumero = numeroDos.value;
+	primerNumero = numeroUno.value;
+	segundoNumero = numeroDos.value;
 
- 	primerNumero = parseInt(primerNumero);
- 	segundoNumero = parseInt(segundoNumero);
+	primerNumero = parseInt(primerNumero);
+	segundoNumero = parseInt(segundoNumero);
 
- 	suma = primerNumero+segundoNumero;
- 	alert("El resultado de la suma es "+suma);
+	suma = (primerNumero + segundoNumero);
+	alert("El resultado de la suma es: " +suma);
 }
-/*
+
 function restar()
 {
 	var primerNumero;
@@ -32,7 +32,7 @@ function restar()
 
  	resta = primerNumero - segundoNumero;
  	alert("El resultado de la resta es "+resta);
-
+}
 
 function multiplicar()
 { 
