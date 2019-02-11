@@ -7,7 +7,7 @@ function mostrarAumento()
 	var importe;
 	var porcentaje;
 	var aumento;
-	var resultado;
+	var aumentado;
 
 
 	importe = sueldo.value;
@@ -17,7 +17,6 @@ function mostrarAumento()
 	porcentaje = (10/100);
 	aumento = (importe * porcentaje);
 
-	resultado = importe + aumento;
-	resultado.value = resultado;
-
+	aumentado = importe + aumento;
+	resultado.value = aumentado;
 }
