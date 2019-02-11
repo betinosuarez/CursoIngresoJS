@@ -1,7 +1,20 @@
 function mostrar()
 {
-//tomo la edad  
+	var edadUno;
+
+	edadUno = edad.value;
+	edadUno = parseInt(edadUno);
+
+	if (edadUno == 15) 
+	{
+		alert("Niña bonita.");
+	}
+		else
+		{	
+			alert("Número no reconocido.");
+		}
+	
 
 
 
-}//FIN DE LA FUNCIÓN
+}
