@@ -1,6 +1,14 @@
 function mostrar()
 {
-//tomo la edad  
+	var laEdad;
 
+	laEdad = edad.value
+	laEdad = parseInt(laEdad);
 
-}//FIN DE LA FUNCIÓN
+	if (laEdad <13){
+		alert("Usted no es adolescente.");
+	}
+	if (laEdad >17){
+		alert("Usted no es adolescente.");
+	}
+}
