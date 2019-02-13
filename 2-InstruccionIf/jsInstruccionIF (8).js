@@ -1,8 +1,19 @@
 function mostrar()
 {
-//tomo la edad  
+	var laEdad
+	var civil
+
+	laEdad = edad.value;
+	laEdad = parseInt(laEdad); //no funcionaba por haber puesto parseInt con P mayúscula
+
+	civil = estadoCivil.value;
+
+
+	if (laEdad > 17 && civil == "Soltero"){
+		alert("Es soltero y no es menor.");
+	}	
 
 	
 
 
-}//FIN DE LA FUNCIÓN
+}
