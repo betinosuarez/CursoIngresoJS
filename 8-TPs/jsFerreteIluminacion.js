@@ -18,7 +18,8 @@ function CalcularPrecio ()
  	modelo = Marca.value; 
  	precio = 35
  	numero = Cantidad.value;
- 	total = precio * numero;
+ 	numero = parseInt(numero);
+ 	impuesto = parseInt(impuesto);
 
  	if(numero > 5){									//6 lamparas
  		precio = precio * numero;
@@ -61,7 +62,7 @@ function CalcularPrecio ()
  			impuesto = precio * 0.1;
  			precio = precio + impuesto;
  			precioDescuento.value = precio;
- 			alert("Usted pagó $" + impuesto + "de Ingresos Brutos.");
+ 			alert("Usted pagó $" + impuesto + " de Ingresos Brutos.");
  		}
  		else{
  			precioDescuento.value = precio;
