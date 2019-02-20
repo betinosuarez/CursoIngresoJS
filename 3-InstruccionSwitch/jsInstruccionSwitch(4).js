@@ -6,6 +6,7 @@ var mensaje = "";
 switch(mesDelAño){
 	case "Febrero":
 					mensaje = "Este mes tiene 28 días."
+	break;  //si no pongo este break, Febrero me da 30 dias
 
 	case "Noviembre":
 	case "Abril":
