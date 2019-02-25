@@ -1,14 +1,26 @@
 function mostrar()
 {
 
-	var contador=0;
 	var positivo=0;
 	var negativo=1;
 	
 	var respuesta='si';
 
+	while(respuesta == "si"){
+		
+			numero = prompt("Ingrese numero");
+			numero = parseInt(numero);
+			if(numero >0){
+				positivo = positivo + numero;
+			}
+			else{
+				negativo = negativo * numero;
+			}
+			respuesta=prompt("Ingrese "+ "si " + "para continuar");
+	}
 
-document.getElementById('suma').value=positivo;
-document.getElementById('producto').value=negativo;
 
-}//FIN DE LA FUNCIÓN
+	suma.value=positivo;
+	producto.value=negativo;
+
+}//Al presionar el botón pedir números hasta que el usuario quiera, sumar los que son positivos y multiplicar los negativos. 
