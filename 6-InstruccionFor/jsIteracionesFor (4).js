@@ -4,4 +4,4 @@ function mostrar()
 
 
 
-}//FIN DE LA FUNCIÓN
+}//buscamos centros numericos
