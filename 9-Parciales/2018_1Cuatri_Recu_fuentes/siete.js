@@ -9,7 +9,7 @@ function mostrar()
 	var promedio;
 	var sexMinima;
 
-	while(contador < 5);{
+	while(contador < 3){
 		notaing = prompt("Ingrese nota del alumno.");
 		notaing = parseInt(notaing);
 
@@ -21,8 +21,8 @@ function mostrar()
 
 		sexo = prompt("Ingrese sexo del alumno. (F o M)");
 
-		while(isNaN(sexo) == false || sexo != "f" || sexo != "m"){
-			sexo = prompt("Error, por favor ingrese " "F "" para femenino o ""M "" para masculino.");
+		while(isNaN(sexo) == false || sexo != "f" && sexo != "m"){
+			sexo = prompt("Error: por favor ingrese " +"F " +" para femenino o " +"M " +" para masculino.");
 			}
 
 	if(sexo == m && notaing >5){
